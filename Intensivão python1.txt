@@ -1,0 +1,19 @@
+anotçoes
+1- escrever o passo a passo em portugues
+2- pyautogui-biblioteca para automatixar o mouse teclado  e tela
+__________________________
+INSTALADOR
+!pip install pyautogui
+!pip install pyperclip
+__________________________
+ IMPORTAR
+import pyautogui
+
+import pyperclip
+
+import time
+___________
+pyautogui- automatizar
+pyperclip- suporte para a escrita
+time- espera
+pandas- trabalhar com base de dados
