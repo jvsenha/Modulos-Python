@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    max-width: 100%;
+}
+
+nav {
+    z-index: 0;
+    height: 5em;
+    padding: 1em;
+    background-color: coral;
+    margin-bottom: 20px;
+    text-align: center;
+
+
+    /* background-color: rgb(238, 157, 36);
+    -webkit-box-shadow: 0px 10px 25px 0px rgba(134, 134, 134, 0.3);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(134, 134, 134, 0.3);
+    box-shadow: 0px 10px 25px 0px rgba(134, 134, 134, 0.3);*/
+}
+
+nav h1 {
+text-align: center;
+    margin: .4%;
+    padding: 0;
+}
+
+
+nav ul {
+    align: center;
+    margin: 5%;
+    font-weight: bolder;
+    font-size: large auto;
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+   
+}
+.container h1 {
+    text-align: center;
+}
+
+
+.form-group{
+ margin-bottom: 2%;
+ 
+}
+
