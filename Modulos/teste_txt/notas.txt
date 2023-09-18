@@ -1,0 +1,4 @@
+rafael, 10, 10, 5, 5
+felipe, 7, 10, 5, 5
+cesar, 9, 5, 2, 4
+vitoria, 9, 5, 2, 4
