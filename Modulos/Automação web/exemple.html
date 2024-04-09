@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site de Teste</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Lista de Links</h1>
+    <div id="linkList">
+        <a href="https://www.example1.com">Link 1</a><br>
+        <a href="https://www.example2.com">Link 2</a><br>
+        <a href="https://www.example3.com">Link 3</a><br>
+    </div>
+    <button onclick="addLink()">Adicionar Link</button>
+
+    <script>
+        var linkNumber = 4;
+        function addLink() {
+            $('#linkList').prepend('<a href="https://www.example' + linkNumber + '.com">Link ' + linkNumber + '</a><br>');
+            linkNumber++;
+        }
+    </script>
+</body>
+</html>
